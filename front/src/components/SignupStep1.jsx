@@ -1,5 +1,5 @@
 import "../css/signup.css";
-import { /* handleFocus,*/ validateCheckStep1 } from "../apis/validate.js";
+import { validateCheckStep1 } from "../apis/validate.js";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import TermsModal from "./signup/TermsModal.jsx";
@@ -54,7 +54,6 @@ export default function SignupStep1({ nextStep, formData, handleCheck }) {
                   id="check1"
                   type="checkbox"
                   onChange={(e) => handleCheck("all", e.target.checked)}
-                  /*    onFocus={() => handleFocus("all")} */
                 />
                 <label for="check1">✔</label>
                 <p>
@@ -81,7 +80,6 @@ export default function SignupStep1({ nextStep, formData, handleCheck }) {
                       name="terms"
                       checked={formData.terms}
                       onChange={(e) => handleCheck("terms", e.target.checked)}
-                      /*    onFocus={() => handleFocus("terms")} */
                     />
                     <label for="check2">✔</label>
                     <span>
@@ -130,7 +128,6 @@ export default function SignupStep1({ nextStep, formData, handleCheck }) {
                       onChange={(e) =>
                         handleCheck("personal", e.target.checked)
                       }
-                      /*    onFocus={() => handleFocus("personal")} */
                     />
                     <label for="check3">✔</label>
                     <span>

@@ -22,26 +22,6 @@ export const validationCheck = ({ formData, userIdRef, userPassRef }) => {
   return checkFlag;
 };
 
-/* export function getIsLogin({ formData }) {
-  const url = "http://127.0.0.1:8080/member/login";
-  const data = formData;
-
-  return async (dispatch) => {
-    const loginResult = await axiosPost({ url, data });
-    const cnt = loginResult.cnt;
-
-    if (cnt === 1) {
-      cookie.setCookie("x-auth-jwt", loginResult.token);
-      const userInfo = jwtDecode(loginResult.token);
-      localStorage.setItem("userInfo", JSON.stringify(userInfo));
-
-      dispatch(setIsLogin({ cnt }));
-    } else {
-      alert(loginResult.message || "Login failed");
-    }
-  };
-} */
-
 export function getIsLogin({ formData }) {
   const url = "http://127.0.0.1:8080/member/login";
   const data = formData;
@@ -63,7 +43,7 @@ export function getIsLogin({ formData }) {
         localStorage.setItem("userInfo", JSON.stringify(userInfo));
 
         dispatch(setIsLogin({ cnt }));
-        dispatch(setUserInfo(userInfo)); // 추가된 사용자 정보 저장
+        dispatch(setUserInfo(userInfo));
       } else {
         alert(loginResult.message || "Login failed");
       }

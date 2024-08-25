@@ -19,17 +19,6 @@ export const validateCheckStep1 = (nextStep, formData) => {
     nextStep();
   }
 };
-/* 
-export const handleFocus = (type) => {
-  if (type === "terms") {
-    document.getElementById("check2").style.outline = "none";
-  } else if (type === "personal") {
-    document.getElementById("check3").style.outline = "none";
-  } else if (type === "all") {
-    document.getElementById("check2").style.outline = "none";
-    document.getElementById("check3").style.outline = "none";
-  }
-}; */
 
 /**
  *

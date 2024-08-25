@@ -4,9 +4,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState, useRef } from "react";
 import { getIsLogin, validationCheck } from "../modules/reduxMemberAxios";
 import { setUserInfo } from "../reducers/memberReducer";
-import { setIsLogin /* , setIsLogout  */ } from "../reducers/memberReducer";
-import { axiosPost } from "../modules/reduxAxios.js";
-import { jwtDecode } from "jwt-decode";
 
 import * as cookie from "../util/cookies.js";
 
@@ -18,7 +15,6 @@ export default function Login() {
   const [formData, setFormData] = useState({ userId: "", userPass: "" });
 
   const isLogin = useSelector((state) => state.member.isLogin);
-  const userInfo = useSelector((state) => state.member.userInfo);
 
   useEffect(() => {
     if (isLogin) {
@@ -49,9 +45,7 @@ export default function Login() {
               type: "kakao",
             };
 
-            /*  window.Kakao.Auth.setAccessToken("${ACCESS_TOKEN}");*/
-
-            dispatch(setUserInfo(userInfo)); // 사용자 정보를 리덕스 상태에 저장
+            dispatch(setUserInfo(userInfo));
             localStorage.setItem("userInfo", JSON.stringify(userInfo));
             cookie.setCookie("x-auth-jwt", authObj);
           },

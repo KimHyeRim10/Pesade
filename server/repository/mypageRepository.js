@@ -1,6 +1,5 @@
 import { db } from "../database/database_mysql80.js";
 import bcrypt from "bcryptjs";
-// import jwt from "jsonwebtoken";
 
 export const getPassConfirm = async (userId, userPass) => {
   const sql = `
