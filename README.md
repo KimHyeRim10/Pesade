@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Pesade🌹
+![pesade-logo](https://github.com/user-attachments/assets/26b68bce-15ac-4677-a7e8-b4fbf20c6e5c)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 주제 선정
+기존의 Pesade라는 향수 사이트를 단일 브랜드의 향수만 판매하는 것이 아니라, 다양한 브랜드의 향수를 판매하는 플랫폼으로 확장한 클론 코딩 프로젝트입니다. 
 
-In the project directory, you can run:
+## 작업 기한
+- 2024.06 - 2024.07 (5인)
 
-### `yarn start`
+## 맡은 역할
+- 로그인, 회원가입, 아이디찾기, 비밀번호찾기, 회원정보 수정
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 사용 기술 
+- React, Redux, Express, MySQL, KaKaoAPI
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 작업 화면 
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### [화면 1]
+➡️ 회원가입 부분입니다. 회원가입은 총 3단계로 구성되어 있으며, 각 단계에서 유효성 검사를 통과해야 다음 단계로 진행할 수 있습니다.
+<br/>
+<br/>
+![1-1](https://github.com/user-attachments/assets/74b47f6d-0276-4aa9-9e6e-45717bdbb8f3)
+<br/><br/>
+![1-3](https://github.com/user-attachments/assets/b5201314-a529-4aed-8689-1ce0c6ec38a8)
+<br/><br/>
+![1-2](https://github.com/user-attachments/assets/84518b34-a985-4415-8077-97ab3291387d)
