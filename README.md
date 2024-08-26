@@ -20,19 +20,19 @@
 ### [화면 1]
 ➡️ 회원가입 부분입니다. 회원가입은 총 3단계로 구성되어 있으며, 각 단계에서 유효성 검사를 통과해야 다음 단계로 진행할 수 있습니다.
 <br/><br/>
-🌸[step1]
+🌸step1
 <br/><br/>
 <p align="center">
     <img src="https://github.com/user-attachments/assets/74b47f6d-0276-4aa9-9e6e-45717bdbb8f3" width="400" height="auto" alt="1-1">
 </p>
 <br/><br/>
-🌸[step2]
+🌸step2
 <br/><br/>
 <p align="center">
     <img src="https://github.com/user-attachments/assets/84518b34-a985-4415-8077-97ab3291387d" width="400" height="auto" alt="1-2">
 </p>
 <br/><br/>
-🌸[step3]
+🌸step3
 <br/><br/>
 <p align="center">
     <img src="https://github.com/user-attachments/assets/b5201314-a529-4aed-8689-1ce0c6ec38a8" width="400" height="auto" alt="1-3">
