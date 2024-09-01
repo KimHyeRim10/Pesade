@@ -13,7 +13,16 @@
 - 로그인, 회원가입, 아이디찾기, 비밀번호찾기, 회원정보 수정
 
 ## 사용 기술
-- React, Redux, Express, MySQL, KaKaoAPI
+
+
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=flat-square)
+![Redux](https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white&style=flat-square)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=flat-square)
+![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white&style=flat-square)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=flat-square)
+![Kakao](https://img.shields.io/badge/Kakao_API-FFCD00?logo=kakaotalk&logoColor=white&style=flat-square)
+
+
 
 ## 작업 화면
 
